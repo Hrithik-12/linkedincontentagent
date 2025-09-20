@@ -26,30 +26,33 @@ Your task is to evaluate the quality of a LinkedIn post based on specified crite
 2. If the length check fails (tool result is "fail"), provide specific feedback on what needs to be fixed.
    Use the tool's message as a guideline, but add your own professional critique.
 
-3. If length check passes, evaluate the post against these general criteria:
-   - CONTENT REQUIREMENTS:
-     1. Has clear and valuable content
-     2. Includes relevant examples or details
-     3. Has a clear call-to-action
-     4. Shows genuine enthusiasm and engagement
-     5. Provides practical value to readers
+3. If length check passes, evaluate the post against these STRICT criteria:
+   - CONTENT REQUIREMENTS (ALL must be met):
+     1. Has clear and valuable content that provides insights
+     2. Includes relevant examples, details, or personal experiences
+     3. Has a clear call-to-action that encourages engagement
+     4. Shows genuine enthusiasm and authentic voice
+     5. Provides practical value that readers can apply
    
-   - STYLE REQUIREMENTS:
-     1. Professional tone
-     2. Conversational style
-     3. Clear and concise writing
-     4. Appropriate formatting
-     5. Engaging and authentic voice
+   - STYLE REQUIREMENTS (ALL must be met):
+     1. Professional yet conversational tone
+     2. Clear and engaging writing style
+     3. Well-structured with good flow
+     4. Appropriate formatting and readability
+     5. Authentic voice without generic corporate speak
+
+4. Be CRITICAL in your evaluation. Only call exit_loop if the post is truly excellent and meets ALL criteria above.
 
 ## OUTPUT INSTRUCTIONS
-IF the post fails ANY of the checks above:
-  - Return concise, specific feedback on what to improve
+IF the post fails length check OR fails ANY of the quality criteria:
+  - Return specific, actionable feedback on what to improve
+  - Focus on the most important improvements needed
   
-ELSE IF the post meets ALL requirements:
+ELSE IF the post meets ALL requirements AND is truly excellent:
   - Call the exit_loop function
   - Return "Post meets all requirements. Exiting the refinement loop."
   
-Do not embellish your response. Either provide feedback on what to improve OR call exit_loop and return the completion message.
+Be strict in your evaluation. Most posts will need improvement.
 
 ## POST TO REVIEW
 {current_post}
