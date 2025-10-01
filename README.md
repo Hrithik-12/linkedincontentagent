@@ -6,6 +6,14 @@
 
 An intelligent LinkedIn post generation system that creates engaging, professional content through a sophisticated AI agent pipeline. The system combines multiple specialized agents to generate, enhance, and refine LinkedIn posts with hashtags and visual recommendations.
 
+## 🎥 Demo Video
+
+Watch the LinkedIn Post Generation Pipeline in action:
+
+[![LinkedIn Post Generator Demo](https://cdn.loom.com/sessions/thumbnails/89f4f9c129554d8183ad5922ed22a57c-1696253037913-with-play.gif)](https://www.loom.com/share/89f4f9c129554d8183ad5922ed22a57c?sid=771d8506-a9ed-4a6f-9c63-7a39eafd5bc1)
+
+*Click the image above to watch the full demo video*
+
 ## 🎯 Key Features
 
 - **🤖 AI-Powered Content Generation** - Creates engaging LinkedIn posts using Gemini 2.0 Flash
