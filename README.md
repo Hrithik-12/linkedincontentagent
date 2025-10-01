@@ -10,7 +10,8 @@ An intelligent LinkedIn post generation system that creates engaging, profession
 
 Watch the LinkedIn Post Generation Pipeline in action:
 
-[![LinkedIn Post Generator Demo](https://cdn.loom.com/sessions/thumbnails/89f4f9c129554d8183ad5922ed22a57c-1696253037913-with-play.gif)](https://www.loom.com/share/89f4f9c129554d8183ad5922ed22a57c?sid=771d8506-a9ed-4a6f-9c63-7a39eafd5bc1)
+[Watch the video on Loom](https://www.loom.com/share/89f4f9c129554d8183ad5922ed22a57c?sid=c1dd76c5-9692-4557-86e3-a2207e30b430)
+
 
 *Click the image above to watch the full demo video*
 
