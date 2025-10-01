@@ -24,8 +24,14 @@ Your task is to refine a LinkedIn post based on review feedback.
 **Review Feedback:**
 {review_feedback}
 
+**Available Hashtags:**
+{suggested_hashtags}
+
+**Visual Recommendations:**
+{visual_recommendations}
+
 ## TASK
-Carefully apply the feedback to improve the post.
+Carefully apply the feedback to improve the post while considering all available enhancements.
 - Maintain the original tone and theme of the post
 - Ensure all content requirements are met as specified in the feedback
 - Adhere to style requirements:
@@ -39,6 +45,7 @@ Carefully apply the feedback to improve the post.
 ## OUTPUT INSTRUCTIONS
 - Output ONLY the refined post content
 - Do not add explanations or justifications
+- Do not include hashtags in the main post content (they're handled separately)
 """,
     description="Refines LinkedIn posts based on feedback to improve quality",
     output_key="current_post",
