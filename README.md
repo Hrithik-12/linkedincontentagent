@@ -16,7 +16,8 @@ An intelligent LinkedIn post generation system that creates engaging, profession
 
 ## 🏗️ System Architecture
 
-![System Architecture Diagram](./nextjssetup/agentcontent/public/systemdiagram.png)
+<img width="1611" height="665" alt="diagram-export-01-10-2025-23_37_56" src="https://github.com/user-attachments/assets/ee2e0fee-1c42-4c68-a2e4-f07333d3555b" />
+
 
 ### High-Level Data Flow
 ```
